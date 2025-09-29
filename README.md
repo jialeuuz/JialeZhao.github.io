@@ -19,6 +19,29 @@
 
 <center>
 
-[主页](https://www.lianxh.cn/) | [课程](https://www.lianxh.cn/details/17.html) | [视频](https://lianxh-class.cn/) | [推文](https://www.lianxh.cn/blogs/all.html) | [资料](https://www.lianxh.cn/share.html)
+lianyujun.github.io
 
+基本文件：
+├── readme.md                # 仓库说明
+├── index.qmd                # 主页内容
+├── _quarto.yml              # Quarto 配置文件（导航栏、主题、输出路径等）
+├── styles.scss              # 自定义样式（可选，可以自行修改）
+├── images/                  # 文件夹：存放头像和网页 logo 等图片
+
+个人信息页面：
+├── blog.qmd                 # 博客文章列表页面
+├── books.qmd                # 阅读/推荐书籍页面
+├── chinese.qmd              # 中文内容页面
+├── codes.qmd                # 代码资源页面
+├── publications.qmd         # 学术成果页面
+├── teaching.md              # 教学资源页面
+
+生成的网站：
+├── docs/                    # 文件夹：渲染生成后的网页目录，用于部署到 GitHub Pages
+
+其他配置信息
+├── site_libs/               # Quarto 构建生成的支持库（可忽略）
+├── _extensions/             # Quarto 扩展插件目录（如 webr，可以忽略）
+├── license                  # 版权声明
+└── _freeze/                 # Quarto 自动管理的中间结果缓存（可忽略）
 </center>
